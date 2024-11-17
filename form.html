@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form action="/daftar" method="get">
+        <div>
+            <label for="fn">First Name</label>
+            <input type="text" placeholder="First Name" id="fn" name="fn">
+        </div>
+
+        <div>
+            <label for="ln">Last Name</label>
+            <input type="text" placeholder="Last Name" id="ln" name="ln">
+        </div>
+                
+        <div>       
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" name="phone">
+        </div>
+
+        <div>
+                <label for="">Gender</label>
+                <label for="">Pria</label>
+                <input type="radio" name="gender" value="pria" checked>
+                <label for="">Wanita</label>
+                <input type="radio" name="gender" value ="wanita">
+        </div>
+
+        <div>
+            <label for="domisili">Domisili</label>
+            <select name="domisili" id="domisili">
+                <option value="jawa">Jawa</option>
+                <option value="bali">Bali</option>
+            </select>
+        </div>
+        
+        <div>
+
+            <label for="email">Email</label>
+            <input type="text" placeholder="Email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" placeholder="Password" id="pass" name="pass">
+        </div>
+
+        <button type="submit">Register Now</button>
+    </form>
+</body>
+</html>
