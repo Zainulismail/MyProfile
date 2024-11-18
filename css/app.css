@@ -1,0 +1,76 @@
+body{
+    background-color: #FAF7F0;
+}
+
+main{
+    margin: 15px;
+    text-align: justify;
+}
+
+section .budaya{
+    background-color: #f6eded;
+    border-radius: 5px;
+    width: 30%;
+    height: 500px;
+    margin: 10px;
+    display: inline-block;
+}
+
+section .budaya img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+section .budaya img + h3{
+    text-align: center;
+}
+
+section .wisata{
+    background-color: #f6eded;
+    border-radius: 5px;
+    width: 30%;
+    height: 500px;
+    margin: 10px;
+    display: inline-block;
+    justify-content: center;
+}
+
+section .wisata img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+section .wisata img + h3{
+    text-align: center;
+}
+
+section .kuliner{
+    background-color: #f6eded;
+    border-radius: 5px;
+    width: 45%;
+    height: 500px;
+    margin: 10px;
+    display: inline-block;
+    justify-content: center;
+}
+
+section .kuliner img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+section .kuliner img + h3{
+    text-align: center;
+}
+#dashboard{
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    font-size: small;
+}
+
+.carousel {
+    padding: 30px;
+}
